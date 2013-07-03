@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Formulario Actividades</title>
+    </head>
+	
+	<link rel="stylesheet" href="../css/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="../css/bootstrap/css/bootstrap-docs.css">
+	<link rel="stylesheet" href="../css/flat-ui.css">
+    <body>
+                <form>
+            <table>
+                <tr>
+                <td>
+                    <label for="eventos">
+					Nombre del evento</label>
+                </td>
+                <td>  <select name="eventos" id="eventos" size="1" > 
+                <option value="1">uno</option>
+                <option value="2 ">dos </option>
+                <option value="3 ">tres</option>
+                <option value="4">cuatro</option>
+                    </select>
+                </td>
+                    </tr>
+                 <tr>
+                <td>
+                    <label for="nombre">
+					Nombre</label>
+                </td>
+                    <td>  <input type="text" name="nombre" id="nombre" value="" placeholder="nombre.."/> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lugares">
+						Lugares</label>
+                    </td>
+                    <td> <input type="number" name="lugares" id="lugares" value="lugares" min="1" max="40" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="precio">
+						Precio</label>
+                    </td>
+                    <td><input type="number" name="precio" id="precio" value="Precio" min="1"/></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="descripcion">
+						Descripcion</label>
+                    </td>
+                    <td><textarea name="descripcion" id="descripcion" cols="40" rows="5" placeholder="descripcion.." ></textarea> </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="nom_ins">
+						Nombre de instructor</label>
+                    </td>
+                    <td><select name="nom_ins" id="nom_ins" size="1" > 
+                        <option value="1">uno</option>
+                        <option value="2 ">dos </option>
+                        <option value="3 ">tres</option>
+                        <option value="4">cuatro</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Actualizar" /></td>
+                </tr>
+            </table>
+        </form>
+
+        
+    </body>
+</html>
