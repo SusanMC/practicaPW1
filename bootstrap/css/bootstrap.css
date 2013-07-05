@@ -7,7 +7,134 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+ .globalnav-wrapper  {
+position: absolute;
+z-index: 9998;
+top: 0;
+left: 50%;
+margin: 18px 0 0 -512px;
+width: 1024px;
+}
+#globalheader #globalnav li#gn-mac a span {
+    background-position: 50% -60px;
+}
+#globalheader.svg #globalnav li a span {
+    background-image: url("/global/nav/images/globalnav_text.svg");
+}
+#globalheader #globalnav li a span {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 3px auto;
+    background: url("/global/nav/images/globalnav_text.png") no-repeat scroll 50% 0px transparent;
+}
 
+#globalheader #globalnav li a {
+    text-indent: -9999px;
+    cursor: pointer;
+}
+a {
+    color: rgb(0, 136, 204);
+}
+
+ul {
+    list-style: none outside none;
+}
+
+#globalheader {
+    text-align: left;
+    font: 12px/18px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+}
+
+li{
+display:inline;
+}
+
+elemento {
+    position: absolute;
+}
+
+body {
+font: 11px/12px  "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+color: #333;
+}
+#Layer1 {
+	position:absolute;
+	width:1207px;
+	height:115px;
+	z-index:2;
+	left: -5px;
+	top: 384px;
+}
+
+
+
+	<style type="text/css">
+<!--
+#capa1{
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	left: 271px;
+	top: 59px;
+}
+#capa3 {
+	position:absolute;
+	width:350px;
+	height:358px;
+	z-index:1;
+	left: 330px;
+	top: 41px;
+}
+#capa2{
+position:absolute;
+	width:1200px;
+	height:358px;
+	z-index:1;
+	left:10px;
+	top: 310px;
+}
+-->
+    </style>
+
+#button li a {
+font-family: Arial;
+font-size: 11px;
+text-decoration: none;
+float: left;
+padding: 10px;
+background-color: #2175bc;
+color: #fff;
+}
+user agent stylesheeta:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+
+
+.promos {
+	position: absolute;
+	z-index: 1;
+	width: 1469px;
+	height: 315px;
+	bottom: 103px;
+	overflow: hidden;
+	left: -10px;
+}
+
+article, aside, footer, header, hgroup, nav, section, figure, figcaption {
+display: block;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 .clearfix {
   *zoom: 1;
 }
@@ -1721,8 +1848,8 @@ select:focus:invalid:focus {
   font-weight: normal;
   line-height: 20px;
   text-align: center;
-  text-shadow: 0 1px 0 #ffffff;
-  background-color: #eeeeee;
+  text-shadow: 0 1px 0 #339900;
+  background-color: #339900;
   border: 1px solid #ccc;
 }
 
@@ -3204,7 +3331,7 @@ button.close {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  text-align: center;
+  text-align: right;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
   cursor: pointer;
@@ -3622,6 +3749,7 @@ input[type="submit"].btn.btn-mini {
   display: inline-block;
   *display: inline;
   *margin-left: .3em;
+
   font-size: 0;
   white-space: nowrap;
   vertical-align: middle;
